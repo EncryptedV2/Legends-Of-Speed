@@ -65,7 +65,7 @@ request({
 })
 
 if not isWhitelisted then
-    player:Kick("You Are Not Whitelisted.)
+    player:Kick("You Are Not Whitelisted.")
 else
     print(player_name .. " is whitelisted")
 
